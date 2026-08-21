@@ -1,3 +1,4 @@
+
 h2 {
   margin: 0;
   font-size: clamp(4rem, 10vw, 7rem);
@@ -10,7 +11,7 @@ h2 {
 
 .content > p {
   margin: 0;
-  color: #f8f7f7; 
+  color: #87abf7; 
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
@@ -44,8 +45,8 @@ h2 {
   font-size: 1rem;
   font-weight: 600;
   padding: 10px 20px;
-  background: #6592c5;
-  border: 1px solid #4c57ec;
+  background: (lightgoldenrodyellow);
+  border: 1px solid (lightpink);
   border-radius: 100px;
   transition:
     background 0.25s ease,
@@ -55,8 +56,8 @@ h2 {
 }
 
 #interests li:hover {
-  background: #fdfbfb;
-  color: #051a3a;
+  background: #d19156;
+  color: #c98e5d;
   border-color: #000;
   transform: translateY(-2px);
 }
@@ -75,20 +76,6 @@ h2 {
     box-shadow 0.4s ease;
 }
 
-.sidebar-img: .sidebar-img {
-  width: 100%;
-  max-width: 760px;
-  aspect-ratio: 3 / 4;
-  object-fit: cover;
-  display: block;
-  border-radius: 24px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-}
- {
-  filter: grayscale(0%);
-  transform: translateY(-4px);
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
-}
 nav {
   display: flex;
   justify-content: space-between;
@@ -118,7 +105,7 @@ nav h1 {
 }
 
 .nav-li a {
-  color: #666;
+  color: #f0eeee;
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 500;
