@@ -5,12 +5,12 @@ h2 {
   font-weight: 900;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-  color: #f8c4f4;
+  color: #da4a75;
 }
 
 .content > p {
   margin: 0;
-  color: #d7ffe3;
+  color:#da9ad1;
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
@@ -27,7 +27,7 @@ h2 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #87adf1;
+  color: #ce3b5ba2;
 }
 
 #interests ul {
@@ -40,12 +40,12 @@ h2 {
 }
 
 #interests li {
-  color: #8cb8f1;
+  color: #b33555;
   font-size: 1rem;
   font-weight: 600;
   padding: 10px 20px;
-  background: rgb(230, 235, 172);
-  border: 1px solid lightpink;
+  background: rgba(238, 161, 193, 0.685);
+  border: 1px solid rgba(236, 157, 194, 0.719);
   border-radius: 100px;
   transition:
     background 0.25s ease,
@@ -55,9 +55,9 @@ h2 {
 }
 
 #interests li:hover {
-  background: #d19156;
-  color: #c98e5d;
-  border-color: #9dc4ff;
+  background: #e03551;
+  color: rgb(252, 154, 211);
+  border-color: #ffdd9d;
   transform: translateY(-2px);
 }
 .sidebar-img {
@@ -74,6 +74,11 @@ h2 {
     transform 0.4s ease,
     box-shadow 0.4s ease;
 }
+.sidebar-img:hover {
+  filter: grayscale(0%);
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
+}
 
 nav {
   display: flex;
@@ -81,8 +86,8 @@ nav {
   align-items: center;
   margin-bottom: 48px;
   padding: 16px 24px;
-  background: #73a8ee;
-  border: 1px solid #73b0e2;
+  background: #c6f8baa4;
+  border: 1px solid #f0f3c6;
   border-radius: 12px;
 }
 
@@ -92,7 +97,7 @@ nav h1 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #abc8ff;
+  color: #df92db;
 }
 
 #nav-ul {
@@ -104,7 +109,7 @@ nav h1 {
 }
 
 .nav-li a {
-  color: #95abf1;
+  color: #95f19ac7;
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 500;
@@ -116,26 +121,24 @@ nav h1 {
 }
 
 .nav-li a:hover {
-  background: #6c8ece;
-  color: #7eb9f0;
+  background: #f0beec;
+  color: #7ef097;
 }
 nav {
-  background: #94b7eb;
-  border-color: #94b7eb;
+  background: #f1cbeff1;
+  border-color: #f55275;
 }
 
 nav h1 {
-  color: #86a3f3;
+  color: #e74078;
 }
 
 .nav-li a {
-  color: #8da8f0;
+  color: #ec4a96;
 }
 
-.nav-li a:hover {
-  background: #92b3e4;
-  color: #85b2f7;
-}
+
 .shadow-text {
-  text-shadow: 2px 2px 4px rgba(138, 217, 241, 0.5);
+  text-shadow: 2px 2px 4px rgba(155, 241, 138, 0.596);
 }
+
