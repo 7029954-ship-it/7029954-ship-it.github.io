@@ -98,8 +98,8 @@ h2 {
   transform: translateY(-2px);
 }
 .sidebar-img {
-  width:75%;
-  max-width: 300px;
+  width:85%;
+  max-width: 500px;
   aspect-ratio: 3 / 4;
   object-fit: cover;
   display: block;
@@ -178,7 +178,7 @@ nav h1 {
 .shadow-text {
   text-shadow: 2px 2px 4px rgba(155, 241, 138, 0.596);
 }
-/* Portfolio styles */
+
 .content h1 {
   color: rgb(0, 0, 0);
 }
